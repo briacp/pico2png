@@ -83,7 +83,7 @@ sub gfx2png {
 sub png2gfx {
     my $png_file = shift;
 
-    ( my $p8_file ) =~ s/_sprites\.png$/.p8/;
+    ( my $p8_file = $png_file ) =~ s/_sprites\.png$/.p8/;
     if ( !-e $p8_file ) {
         die "No cart \"$p8_file found\n";
     }
