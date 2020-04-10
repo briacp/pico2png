@@ -11,7 +11,7 @@ Usage is :
            - copy the content of the spritesheet into the gfx part of the cart
 
 
-This script requires the [Imager](http://search.cpan.org/perldoc?Imager) perl module. You can install it with the following command :
+This script requires the [Imager](http://search.cpan.org/perldoc?Imager) and [File::Slurp](http://search.cpan.org/perldoc?File::Slurp) perl modules. You can install them with the following command :
 
-    $ sudo cpan Imager
+    $ sudo cpan Imager File::Slurp
 
